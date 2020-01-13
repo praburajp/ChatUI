@@ -1,0 +1,32 @@
+<!-- Image and text -->
+<nav class="navbar fixed-top navbar-light container-fluid" style="background-color: #0026fd;">
+  <a class="navbar-brand" routerLink="" style="color: rgb(255, 255, 255);">
+    <img src="/assets/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+    Chatzz
+  </a>
+  <ul class="nav justify-content-end" style="font-size: small; ">
+    <li class="nav-item">
+      <a class="nav-link active" routerLink="/" style="color: rgb(255, 255, 255);">Messsages</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color: rgb(255, 255, 255);">Contacts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color: rgb(255, 255, 255);">Posts</a>
+    </li>
+    <li class="nav-item">
+      <div class="dropdown show">
+        <a class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+          style="color: rgb(255, 255, 255);">Profile<img src="/assets/profile.jpg" width="30" height="30"
+            class="d-inline-block align-top" alt=""> </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item">Edit Profile</a>
+          <a class="dropdown-item">Settings</a>
+          <a class="dropdown-item">Logout</a>
+        </div>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+<router-outlet></router-outlet>
